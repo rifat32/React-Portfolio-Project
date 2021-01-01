@@ -1,6 +1,66 @@
 
 export default function script() {
     
+  // Init AOS
+function aos_init() {
+  window.AOS.init({
+    duration: 1000,
+    easing: "ease-in-out-back",
+    once: true
+  });
+}
+   // Porfolio isotope and filter
+   let wLoad = false;
+   const bforLoad = () => {
+    if(!wLoad){
+      var portfolioIsotope = window.$('.portfolio-container').isotope({
+        itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows'
+      });
+    
+      window.$('#portfolio-flters li').on('click', function() {
+        window.$("#portfolio-flters li").removeClass('filter-active');
+        window.$(this).addClass('filter-active');
+    
+        portfolioIsotope.isotope({
+          filter:  window.$(this).data('filter')
+        });
+        aos_init();
+        
+      });
+      
+      // Initiate venobox (lightbox feature used in portofilo)
+    
+        window.$('.venobox').venobox();
+        aos_init();
+        
+    }
+   }
+   bforLoad();
+   window.$(window).on('load', function() {
+    wLoad = false;
+    var portfolioIsotope = window.$('.portfolio-container').isotope({
+      itemSelector: '.portfolio-item',
+      layoutMode: 'fitRows'
+    });
+
+    window.$('#portfolio-flters li').on('click', function() {
+      window.$("#portfolio-flters li").removeClass('filter-active');
+      window.$(this).addClass('filter-active');
+
+      portfolioIsotope.isotope({
+        filter:  window.$(this).data('filter')
+      });
+      aos_init();
+    });
+
+    // Initiate venobox (lightbox feature used in portofilo)
+  
+      window.$('.venobox').venobox();
+      aos_init();
+    
+  });
+ 
     window.$(document).ready(function() {
             window.$('.venobox').venobox();
 

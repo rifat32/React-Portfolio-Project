@@ -21,7 +21,7 @@ function Header() {
 
       <nav className="nav-menu">
         <ul>
-          <li className="active"><Link to="/"><i className="bx bx-home"></i> <span>Home</span></Link></li>
+          <li className="active"><Link to="/#hero"><i className="bx bx-home"></i> <span>Home</span></Link></li>
           <li><Link to="/#about"><i className="bx bx-user"></i> <span>About</span></Link></li>
           <li><Link to="/#resume"><i className="bx bx-file-blank"></i> <span>Resume</span></Link></li>
           <li><Link to="/#portfolio"><i className="bx bx-book-content"></i> Portfolio</Link></li>

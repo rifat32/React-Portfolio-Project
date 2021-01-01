@@ -1,0 +1,133 @@
+const portfolioObj = [
+    
+        {
+            id:'1',
+            title:'App',
+            filter:'app',
+            img:'./assets/img/portfolio/portfolio-1.jpg',
+            imgDetails1:'./assets/img/portfolio/portfolio-details-1.jpg',
+            imgDetails2:'./assets/img/portfolio/portfolio-details-2.jpg',
+            imgDetails3:'./assets/img/portfolio/portfolio-details-3.jpg',
+            category:'Web Design',
+            client: 'ASU Company',
+            date: '01 March, 2020',
+            url: 'https://www.facebook.com/masterrifatalashwad/',
+            description:'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.'
+        },
+        {
+            id:'2',
+            title:'App',
+            filter:'card',
+            img:'./assets/img/portfolio/portfolio-2.jpg',
+            imgDetails1:'./assets/img/portfolio/portfolio-details-1.jpg',
+            imgDetails2:'./assets/img/portfolio/portfolio-details-2.jpg',
+            imgDetails3:'./assets/img/portfolio/portfolio-details-3.jpg',
+            category:'Web Design',
+            client: 'ASU Company',
+            date: '01 March, 2020',
+            url: 'https://www.facebook.com/masterrifatalashwad/',
+            description:'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.'
+        },
+        {
+            id:'3',
+            title:'App',
+            filter:'web',
+            img:'./assets/img/portfolio/portfolio-3.jpg',
+            imgDetails1:'./assets/img/portfolio/portfolio-details-1.jpg',
+            imgDetails2:'./assets/img/portfolio/portfolio-details-2.jpg',
+            imgDetails3:'./assets/img/portfolio/portfolio-details-3.jpg',
+            category:'Web Design',
+            client: 'ASU Company',
+            date: '01 March, 2020',
+            url: 'https://www.facebook.com/masterrifatalashwad/',
+            description:'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.'
+        },
+        {
+            id:'4',
+            title:'App',
+            filter:'app',
+            img:'./assets/img/portfolio/portfolio-4.jpg',
+            imgDetails1:'./assets/img/portfolio/portfolio-details-1.jpg',
+            imgDetails2:'./assets/img/portfolio/portfolio-details-2.jpg',
+            imgDetails3:'./assets/img/portfolio/portfolio-details-3.jpg',
+            category:'Web Design',
+            client: 'ASU Company',
+            date: '01 March, 2020',
+            url: 'https://www.facebook.com/masterrifatalashwad/',
+            description:'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.'
+        },
+        {
+            id:'5',
+            title:'App',
+            filter:'card',
+            img:'./assets/img/portfolio/portfolio-5.jpg',
+            imgDetails1:'./assets/img/portfolio/portfolio-details-1.jpg',
+            imgDetails2:'./assets/img/portfolio/portfolio-details-2.jpg',
+            imgDetails3:'./assets/img/portfolio/portfolio-details-3.jpg',
+            category:'Web Design',
+            client: 'ASU Company',
+            date: '01 March, 2020',
+            url: 'https://www.facebook.com/masterrifatalashwad/',
+            description:'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.'
+        },
+        {
+            id:'6',
+            title:'App',
+            filter:'web',
+            img:'./assets/img/portfolio/portfolio-6.jpg',
+            imgDetails1:'./assets/img/portfolio/portfolio-details-1.jpg',
+            imgDetails2:'./assets/img/portfolio/portfolio-details-2.jpg',
+            imgDetails3:'./assets/img/portfolio/portfolio-details-3.jpg',
+            category:'Web Design',
+            client: 'ASU Company',
+            date: '01 March, 2020',
+            url: 'https://www.facebook.com/masterrifatalashwad/',
+            description:'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.'
+        },
+        {
+            id:'7',
+            title:'App',
+            filter:'app',
+            img:'./assets/img/portfolio/portfolio-7.jpg',
+            imgDetails1:'./assets/img/portfolio/portfolio-details-1.jpg',
+            imgDetails2:'./assets/img/portfolio/portfolio-details-2.jpg',
+            imgDetails3:'./assets/img/portfolio/portfolio-details-3.jpg',
+            category:'Web Design',
+            client: 'ASU Company',
+            date: '01 March, 2020',
+            url: 'https://www.facebook.com/masterrifatalashwad/',
+            description:'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.'
+        },
+        {
+            id:'8',
+            title:'App',
+            filter:'web',
+            img:'./assets/img/portfolio/portfolio-8.jpg',
+            imgDetails1:'./assets/img/portfolio/portfolio-details-1.jpg',
+            imgDetails2:'./assets/img/portfolio/portfolio-details-2.jpg',
+            imgDetails3:'./assets/img/portfolio/portfolio-details-3.jpg',
+            category:'Web Design',
+            client: 'ASU Company',
+            date: '01 March, 2020',
+            url: 'https://www.facebook.com/masterrifatalashwad/',
+            description:'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.'
+        },
+        {
+            id:'9',
+            title:'App',
+            filter:'card',
+            img:'./assets/img/portfolio/portfolio-9.jpg',
+            imgDetails1:'./assets/img/portfolio/portfolio-details-1.jpg',
+            imgDetails2:'./assets/img/portfolio/portfolio-details-2.jpg',
+            imgDetails3:'./assets/img/portfolio/portfolio-details-3.jpg',
+            category:'Web Design',
+            client: 'ASU Company',
+            date: '01 March, 2020',
+            url: 'https://www.facebook.com/masterrifatalashwad/',
+            description:'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.'
+        },
+       
+      
+    ]
+
+    export default portfolioObj;
